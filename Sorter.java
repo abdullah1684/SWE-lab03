@@ -2,13 +2,17 @@
        
     public static void main(String[] args) {
         int[] arr = {88, 4, 9, 500, 365};
-        selectionSort(arr);
+        sort(arr);
         for(int i=0; i<5;i++){
 
             
             System.out.println(arr[i]);
         }
 
+    }
+
+    public static void sort(int[] array) {
+        insertionSort(array);
     }
     public static void insertionSort(int[] arr) {
         int n = arr.length;
