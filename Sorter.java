@@ -12,7 +12,7 @@
     }
 
     public static void sort(int[] array) {
-        insertionSort(array);
+        selectionSort(array);
     }
     public static void insertionSort(int[] arr) {
         int n = arr.length;
